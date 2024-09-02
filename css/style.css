@@ -99,7 +99,7 @@ body {
 
 .productos-items .btn {
     background-color: #000000;
-    color: rgb(248, 244, 244);
+    color: rgb(243, 16, 16);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -165,13 +165,13 @@ footer {
     background-color: #062444;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 footer .social-links a {
     color: white;
     text-decoration: none;
-    margin: 50px;
+    margin: 5px;
 }
 
 @media screen and (max-width:987px){

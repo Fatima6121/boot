@@ -49,14 +49,6 @@ body {
 }
 
 
-.hero a {
-    text-decoration: none;
-    color: blue;
-    background-color: brown;
-    padding: 4px;
-    font-size: 15px;
-    border: 15px;
-}
 
 
 
@@ -113,12 +105,10 @@ body {
 
 
 .grid-galeria {
-    margin: 1px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 250px;
-    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 
@@ -126,7 +116,6 @@ body {
 
 .grid-galeria div img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     object-fit: none;
     object-fit: scale-down;
@@ -134,19 +123,10 @@ body {
 
 
 
-
-.img-4 {
-    grid-row: span 2;
-}
-
-.grid-item {
-    position: relative;
-}
-
 .grid-item h3 {
     position: absolute;
     bottom: 0;
-    background-color: rgba(51, 49, 49, 0.377);
+    background-color: rgba(2, 2, 2, 0.377);
     color: rgb(255, 252, 252);
     width: 100%;
 }

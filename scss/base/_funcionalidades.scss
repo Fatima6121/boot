@@ -1,0 +1,78 @@
+//*VARIABLES
+
+$color-principal: yellow;
+
+//*listas
+
+$color: red, pink, blue, black;
+$font: 20px, 10px, 15px, 30px;
+
+//*operaciones
+//* + - */
+
+$ancho: 750px;
+
+img{
+    width: $ancho / 2;
+}
+
+//*mapas
+
+$boton: (
+    //* key - value
+    bg-color: tomato,
+    border-boton: 2px solid black,
+    color-text: yellow,
+);
+
+.boton{
+    background-color: map-get($boton , bg-color);
+    color: map-get($boton , color-text );
+}
+
+//mixin
+
+@mixin flex ($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+.galeria{
+    @include flex (flex, space-around, center,);
+}
+
+.galeria2{
+    @include flex (flex, center,center,);
+
+}
+
+//*CONDICIONALES
+
+//=ASIGNACIÓN
+//==DON IGUALES
+//===EXACTAMENTE IGUALES
+
+//!DIFERENTE
+// > MAYOR QUE
+// < MENOR QUE
+// >= MAOR O IGUAL QUE
+// <= MENOR O IGUAL QUE
+
+// if ( condicion){
+// }else{
+// }
+
+@mixin modos ($modo){
+    @if $modo == black{
+        border: solid 2px purple;
+    }@else{
+        border: solid 2px yellowgreen;
+    }
+}
+
+.bg-elemento{
+    @include modos (black);
+
+}
+ 

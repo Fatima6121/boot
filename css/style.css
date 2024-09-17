@@ -22,16 +22,14 @@ body {
     background-color:white;
 }
 
-.hero  {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
 
 
 .hero {
     width: 100%;
     height: 450px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
     justify-content: center;
     align-items: center;
     background-image: url(../img/quinn-battick-ZvtYlEeA44I-unsplash-11e83a3cce1a45918796b80e491c36a7.jpg);
@@ -125,7 +123,13 @@ box-shadow: 10px 10px 23px -4px  #062444;
 
 
 
-.grid-galeria div img {
+.grid-galeria div{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-galeria img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -138,7 +142,11 @@ box-shadow: 10px 10px 23px -4px  #062444;
     right: 40px;
 }
 
-.whatsapp a img {
+.whatsapp a{
+    width: 50px;
+}
+
+.whatsapp img{
     width: 50px;
 }
 

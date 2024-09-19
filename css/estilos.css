@@ -26,6 +26,10 @@ body {
   color: rgba(0, 0, 0, 0.904);
   background-color: white; }
 
+header {
+  position: sticky;
+  top: 0; }
+
 .menu-color {
   background-color: #0624448f; }
 
@@ -111,6 +115,61 @@ body {
         transition: 0, 6s; }
         .productos .productos-grid .productos-items .btn:hover {
           background-color: rgba(127, 255, 212, 0); }
+
+.titulo-principal h1 {
+  text-align: center; }
+
+.titulo-principal .contenedor {
+  display: flex;
+  justify-content: center;
+  width: 550px; }
+
+.titulo-principal .imagen {
+  height: 550px;
+  text-align: center;
+  margin: 5px;
+  display: flex; }
+
+.titulo-principal .texto {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center; }
+
+.product-conteiner {
+  max-width: 900px;
+  margin: 50px auto;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; }
+  .product-conteiner .product-image img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-right: 1px solid #eee; }
+  .product-conteiner .product-details {
+    padding: 20px;
+    flex: 1; }
+    .product-conteiner .product-details h2 {
+      font-size: 28px;
+      margin: 0 0 10px; }
+  .product-conteiner .price-original {
+    font-size: 24px;
+    color: #ec0d0d;
+    text-decoration: line-through; }
+  .product-conteiner .price-discount {
+    font-size: 28px;
+    color: #062444;
+    margin: 10px 0; }
+  .product-conteiner .discount-info .last-unit {
+    font-size: 16px;
+    color: #27ae60; }
 
 /*!INDEX*/
 .whatsapp {

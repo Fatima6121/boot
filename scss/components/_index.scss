@@ -128,32 +128,40 @@
     }
 }
 
-.titulo-principal{
-    h1{
+
+
+section {
+
+    .titulo-principal h1 {
         text-align: center;
+
     }
+
     .contenedor {
         display: flex;
         justify-content: center;
+
+    }
+
+    .imagen {
         width: 550px;
-        
-    }
-    .imagen{
         height: 550px;
-    text-align: center;
-    margin: 5px;
-    display: flex;
+        text-align: center;
+        margin: 5px;
+        display: flex;
     }
-    .texto{
+
+    .texto {
         font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
-    padding: 5px;
-    color: black;
-    display: flex;
-    text-align: center;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
+        margin: 5px;
+        padding: 5px;
+        color: black;
+        display: flex;
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+
     }
 }
 
@@ -164,40 +172,252 @@
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    .product-image img{
-        width: 100%;
-    height: auto;
-    max-width: 300px;
-    border-right: 1px solid #eee;
 
-    }
-    .product-details{
-        padding: 20px;
+}
+.product-image img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-right: 1px solid #eee;
+    margin: 10px;
+
+}
+.product-details{
+    padding: 20px;
     flex: 1;
-        h2{
-            font-size: 28px;
+}
+.prduct-details h2{
+    font-size: 28px;
     margin: 0 0 10px;
 
-        }
-    }
-    .price-original{
-        font-size: 24px;
-    color:#ec0d0d ;
+}
+.price-discount{
+    font-size: 24px;
+    color: #ec0d0d;
     text-decoration: line-through;
 
-    }
-    .price-discount{
-        font-size: 28px;
+}
+.precio-descuento{
+    font-size: 28px;
     color:#062444;
     margin: 10px 0;
 
-    }
-    .discount-info .last-unit{
-        font-size: 16px;
-        color: #27ae60;
+}
+.discount-info .last-unit{
+    font-size: 16px;
+    color: #27ae60;
 
-    }
+}
+.add-to-cart{
+    background-color: #062444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+form {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.productos-contenedor{
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
+.productos-imagenes img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-right: 1px solid #eee;
+    margin: 10px;
+
+}
+.productos-detalles{
+    padding: 20px;
+    flex: 1;
+}
+.prductos-detalles h2{
+    font-size: 28px;
+    margin: 0 0 10px;
+
+}
+.precioo-original{
+    font-size: 24px;
+    color: #ec0d0d;
+    text-decoration: line-through;
+
+}
+.precio-descuento{
+    font-size: 28px;
+    color:#062444;
+    margin: 10px 0;
+
+}
+.descuento-informacion .ultima-unidad{
+    font-size: 16px;
+    color: #27ae60;
+
+}
+.agregar-to-carrito{
+    background-color: #062444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+form {
+    margin-top: 20px;
+}
+
+input[type="numeros"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.productos-conteiner{
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
+.productos-image img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-right: 1px solid #eee;
+    margin: 10px;
+
+}
+.productos-details{
+    padding: 20px;
+    flex: 1;
+}
+.prductos-details h2{
+    font-size: 28px;
+    margin: 0 0 10px;
+
+}
+.precio-original{
+    font-size: 24px;
+    color: #ec0d0d;
+    text-decoration: line-through;
+
+}
+.precio-discount{
+    font-size: 28px;
+    color:#062444;
+    margin: 10px 0;
+
+}
+.descuento-info .ultima-unit{
+    font-size: 16px;
+    color: #27ae60;
+
+}
+.add-to-carrito{
+    background-color: #062444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+form {
+    margin-top: 20px;
+}
+
+input[type="numeroos"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
 
 
+.productos-contenedor{
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 
+}
+.productos-imagenes img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-right: 1px solid #eee;
+    margin: 10px;
+
+}
+.productos-detalles{
+    padding: 20px;
+    flex: 1;
+}
+.prductos-detalles h2{
+    font-size: 28px;
+    margin: 0 0 10px;
+
+}
+.precioo-original{
+    font-size: 24px;
+    color: #ec0d0d;
+    text-decoration: line-through;
+
+}
+.precio-descuento{
+    font-size: 28px;
+    color:#062444;
+    margin: 10px 0;
+
+}
+.descuento-informacion .ultima-unidad{
+    font-size: 16px;
+    color: #27ae60;
+
+}
+.agregar-to-carrito{
+    background-color: #062444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+form {
+    margin-top: 20px;
+}
+
+input[type="numeros"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
 }

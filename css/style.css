@@ -271,6 +271,7 @@ input[type="number"] {
     height: auto;
     max-width: 300px;
     border-right: 1px solid #eee;
+    justify-content: center;
 }
 
 .productos-details {
@@ -314,7 +315,7 @@ form {
     margin-top: 20px;
 }
 
-input[type="number"] {
+input[type="numeroos"] {
     width: 60px;
     padding: 5px;
     font-size: 16px;
@@ -450,6 +451,7 @@ footer .social-links a {
 
     .productos-imagenes img {
         max-width: 100%;
+        width: 100px;
         border-right: none;
         margin: 10px;
     }
